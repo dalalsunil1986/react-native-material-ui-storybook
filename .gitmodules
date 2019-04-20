@@ -1,0 +1,3 @@
+[submodule "stories/mui"]
+	path = stories/mui
+	url = git@github.com:xotahal/react-native-material-ui.git
