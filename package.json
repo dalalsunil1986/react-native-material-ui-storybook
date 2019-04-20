@@ -14,6 +14,9 @@
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "@babel/runtime": "^7.4.3",
+    "@storybook/addon-knobs": "^5.0.10",
+    "@storybook/addon-ondevice-knobs": "^4.1.18",
+    "@storybook/react-native": "^4.1.18",
     "babel-jest": "^24.7.1",
     "jest": "^24.7.1",
     "metro-react-native-babel-preset": "^0.53.1",

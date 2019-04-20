@@ -1,9 +1,9 @@
-/**
- * @format
- */
+import { YellowBox } from 'react-native'
 
-import {AppRegistry} from 'react-native';
-import App from './App';
-import {name as appName} from './app.json';
+YellowBox.ignoreWarnings([
+  // this is fixed in storybook 5
+  // see: https://github.com/storybooks/storybook/issues/6078
+  'Warning: Async Storage'
+])
 
-AppRegistry.registerComponent(appName, () => App);
+export default from './storybook';
