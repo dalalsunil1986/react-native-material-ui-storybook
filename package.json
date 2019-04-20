@@ -5,11 +5,15 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "ios": "react-native run-ios --simulator \"iPhone 7 (12.2)\"",
+    "flow": "flow",
     "test": "jest"
   },
   "dependencies": {
+    "color": "^3.1.0",
+    "lodash.merge": "^4.6.1",
     "react": "16.8.3",
-    "react-native": "0.59.5"
+    "react-native": "0.59.5",
+    "react-native-vector-icons": "^6.4.2"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
@@ -18,8 +22,10 @@
     "@storybook/addon-ondevice-knobs": "^4.1.18",
     "@storybook/react-native": "^4.1.18",
     "babel-jest": "^24.7.1",
+    "flow-bin": "^0.97.0",
     "jest": "^24.7.1",
     "metro-react-native-babel-preset": "^0.53.1",
+    "prettier": "^1.17.0",
     "react-test-renderer": "16.8.3"
   },
   "jest": {
